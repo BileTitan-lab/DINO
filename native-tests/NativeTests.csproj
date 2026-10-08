@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\desktop\GameEngine.cs" Link="GameEngine.cs" />
+    <Compile Include="..\desktop\GameInputRouter.cs" Link="GameInputRouter.cs" />
+    <Compile Include="..\desktop\ActEngine.cs" Link="ActEngine.cs" />
+    <Compile Include="..\desktop\ActCombat.cs" Link="ActCombat.cs" />
+    <Compile Include="..\desktop\ActClash.cs" Link="ActClash.cs" />
+    <Compile Include="..\desktop\ActChapterRooms.cs" Link="ActChapterRooms.cs" />
+    <Compile Include="..\desktop\ActChapterRoomThemes.cs" Link="ActChapterRoomThemes.cs" />
+    <Compile Include="..\desktop\ActRoomTransitions.cs" Link="ActRoomTransitions.cs" />
+    <Compile Include="..\desktop\ActRoomModules.cs" Link="ActRoomModules.cs" />
+    <Compile Include="..\desktop\ActRoomJourney.cs" Link="ActRoomJourney.cs" />
+    <Compile Include="..\desktop\ActEnemies.cs" Link="ActEnemies.cs" />
+    <Compile Include="..\desktop\ActBosses.cs" Link="ActBosses.cs" />
+    <Compile Include="..\desktop\ActPrimalCatalog.cs" Link="ActPrimalCatalog.cs" />
+    <Compile Include="..\desktop\ActPrimalSystems.cs" Link="ActPrimalSystems.cs" />
+    <Compile Include="..\desktop\ActFeedback.cs" Link="ActFeedback.cs" />
+    <Compile Include="..\desktop\ActLevel.cs" Link="ActLevel.cs" />
+    <Compile Include="..\desktop\ActLevelRandomizer.cs" Link="ActLevelRandomizer.cs" />
+    <Compile Include="..\desktop\ActRoomEvents.cs" Link="ActRoomEvents.cs" />
+    <Compile Include="..\desktop\ActInputRouter.cs" Link="ActInputRouter.cs" />
+    <Compile Include="..\desktop\ActPowerCatalog.cs" Link="ActPowerCatalog.cs" />
+    <Compile Include="..\desktop\ActExpandedPowerCatalog.cs" Link="ActExpandedPowerCatalog.cs" />
+    <Compile Include="..\desktop\ActBuildRuntime.cs" Link="ActBuildRuntime.cs" />
+    <Compile Include="..\desktop\ActBuildEffects.cs" Link="ActBuildEffects.cs" />
+    <Compile Include="..\desktop\ActRunState.cs" Link="ActRunState.cs" />
+    <Compile Include="..\desktop\ActPowers.cs" Link="ActPowers.cs" />
+    <Compile Include="..\desktop\ActSecondMap.cs" Link="ActSecondMap.cs" />
+    <Compile Include="..\desktop\ActSecondMapExpansion.cs" Link="ActSecondMapExpansion.cs" />
+      <Compile Include="..\desktop\ActEnvironment.cs" Link="ActEnvironment.cs" />
+    <Compile Include="..\desktop\ActAdvancedMaps.cs" Link="ActAdvancedMaps.cs" />
+    <Compile Include="..\desktop\ActAdvancedMapModules.cs" Link="ActAdvancedMapModules.cs" />
+    <Compile Include="..\desktop\ActPlatformLayout.cs" Link="ActPlatformLayout.cs" />
+    <Compile Include="..\desktop\ActRestStop.cs" Link="ActRestStop.cs" />
+  </ItemGroup>
+</Project>

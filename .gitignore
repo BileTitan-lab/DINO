@@ -1,0 +1,25 @@
+# Build output and local package caches
+**/bin/
+**/obj/
+/.nuget/
+/.dotnet/
+/.dotnet-home/
+/.appdata/
+
+# Local editor and assistant settings
+/.claude/
+/.codex/
+/.agents/
+/.vs/
+*.user
+*.suo
+
+# Published games belong in GitHub Releases
+/release/
+*.exe
+*.pdb
+
+# Personal game settings and transient files
+/settings.json
+*.log
+*.tmp
